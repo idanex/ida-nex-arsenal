@@ -52,7 +52,7 @@ def main():
             for event in event_filter.get_new_entries():
                 message_body = f"Ida Nex Watchdog Alert:\nEvent '{event.event}' detected on {contract_address}.\nDetails: {event.args}"
                 message = twilio_client.messages.create(body=message_body, from_=twilio_from_phone, to=twilio_to_phone)
-                print(f"?? SMS Alert sent! SID: {message.sid}")
+                print(f"🚀 SMS Alert sent! SID: {message.sid}")
             time.sleep(15)
         except Exception as e:
             print(f"An error occurred: {e}")
