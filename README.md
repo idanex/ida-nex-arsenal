@@ -1,4 +1,4 @@
-$mainReadmeContent = @"
+
 # The Ida Nex™ Arsenal
 
 > Forging the Future of Web3, One Tool at a Time.
